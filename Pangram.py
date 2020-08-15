@@ -16,8 +16,4 @@ for line in fhandle:
         print(" Line "+str(int(count))+" : "+str(line)+" "+"is a Pangram")
     count+=0.5
     print()
-        
-
-def ispangram(sentence):
-    return (set(sentence) >= alphabets)# String Comparison
-
+       
